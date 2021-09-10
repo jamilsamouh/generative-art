@@ -1,0 +1,81 @@
+To do:
+
+1- increase resolutoin
+
+2- change image size
+
+3- play line width (ls)
+
+4- play with size of the dots (size)
+
+5- play with transparency (alpha)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Our image test case default info: 2021-05-04-06-50_seed_2498  (polar = True, filetype = "png", color = "purple", background_color = "red", s = 1, alpha = 0.1 , lw = 0 , 
+
+img_size = (10,10), resolution = 100) in the directory handpicked/test_image
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*** We will keep all the parameters to the default test image and change one feature at a time for testing purposes ***
+
+Test Runs:
+
+1- changing resolution (200, 300, 500, 750, 1000, 1250, 1500) dpi in the directory handpicked/different dpi values
+
+Observations: The higher the dpi the longer it takes to plot and save the figure
+
+2- change image size ( (4,4), (5,5), (6,6), (7,7), (8,8), (9,9), (10,10) ) in the directory handpicked/different image sizes
+
+Observations: The bigger the image size the more the dots will be sparsed which will result in the color fading out more
+
+3- change line width ( 0.0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5 ) in the directory handpicked/different line width values
+
+Observations: The bigger the line width the more more volume it will give the plot and looks richer until some point then the line width will be too big that it eats
+from the shape
+
+4- change dots size (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15) in the directory handpicked/different dots sizes
+
+Observations: The bigger the dots size the more space each dota will take BUT it will eat away from the picture shape 
+
+5- change transparency values (0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0) in the directory handpicked/different alpha values
+
+Observations: The larger the alpha value the less transparetn the dots will be which after some point it will also start covering some of the shape
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Results:
+
+My pick for the best variations of parameters for this expirement based on the test case is:
+
+1- dpi = 1000 looked great to me but you can increase it
+
+2- image size = (5,5)
+
+3- line width = 0.5
+
+4- dots size = 2
+
+5- transparency values = 0.3
+
+
+BUT After running more tests on other graphs and other shapes I found out those parameters are better
+
+
+1- dpi = 1000 looked great to me but you can increase it
+
+2- image size = (5,5)
+
+3- line width = 0.1
+
+4- dots size = 1
+
+5- transparency values = 0.1
+
+
+
+
+
+
+

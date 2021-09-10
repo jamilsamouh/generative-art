@@ -1,0 +1,19 @@
+1- Flower Formula:
+
+def transform_x(x_i,y_i,seed):
+
+    seed = int (seed)
+    
+    rng = np.random.RandomState(seed)
+
+    return rng.uniform(-1,1,1) * x_i**4 - np.sin(y_i**2)
+
+def transform_y(x_i,y_i,seed):
+    
+    seed = int (seed)
+    
+    rng = np.random.RandomState(seed)
+            
+    return rng.uniform(-1,1,1) * y_i**2 - np.sin(x_i**3)
+
+my_formula = [transform_x,transform_y]
