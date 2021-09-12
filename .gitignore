@@ -10,7 +10,8 @@ __pycache__/
 everything/
 handpicked/
 img/
-logfile/
+; logfile/
+logfile
 
 # Distribution / packaging
 .Python
