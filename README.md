@@ -130,12 +130,13 @@ art_test.generate_img( formula = my_formula, filetype = 'gif', polar = True , ba
 
 
 
-
 ## Limitations
 
 1- Some plots/animations will looks almost identical because of the uniform random variable as if it has a similar value it will almost create an identical plot/animation
 
 2- Animating an image with cmap will take 1 minute for each animation (before used to be 5 minutes but optimized it)
+
+3- This repo has been tested **only** on Windows OS
 
 ## Credits
 
