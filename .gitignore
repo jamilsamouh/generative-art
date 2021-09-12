@@ -7,10 +7,10 @@ __pycache__/
 *.so
 
 # Directory
-*/everything/*
-*/handpicked/*
-*/img/*
-*/logfile/*
+everything/
+handpicked/
+img/
+logfile/
 
 # Distribution / packaging
 .Python
