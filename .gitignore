@@ -9,6 +9,8 @@ __pycache__/
 # Directory
 everything/
 handpicked/
+img/
+logfile/
 
 # Distribution / packaging
 .Python
