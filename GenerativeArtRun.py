@@ -32,6 +32,7 @@ def transform_y(x_i,y_i,seed):
 my_formula = [transform_x,transform_y]
 
 
+
 # short version
 art_test.generate_img( formula = my_formula, nr_of_img = 1, filetype = 'gif', polar = True , animate = True, cmap = True, cmap_color= 'plasma_r', cmap_direction= 'V' )
 
